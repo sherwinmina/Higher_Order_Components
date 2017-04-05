@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 class Header extends Component {
+  authButton() {
+    return <button>Sign In</button>
+  }
+
   render() {
     return (
       <nav className="navbar navbar-light">
@@ -20,3 +24,5 @@ class Header extends Component {
     );
   }
 }
+
+export default Header;
