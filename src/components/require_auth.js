@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 export default function(ComposedComponent) {
-  class Authentication extends Componet {
+  class Authentication extends Component {
     render() {
       return <ComposedComponent {...this.props} />
     }
